@@ -61,3 +61,17 @@
         line-height: 38px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .gpt3__features-heading {
+        justify-content: flex-start; 
+        margin-left: -3rem;
+        margin-right: -3rem; 
+      }
+    
+      .gpt3__features-heading h1 {
+        font-size: 23px;
+        line-height: 30px;
+
+    }
+}

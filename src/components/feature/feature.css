@@ -62,3 +62,9 @@
         margin: 1rem 0;
     }
 }
+
+@media screen and (max-width : 480px) {
+    .gpt3__features-container__feature {
+        width: 140%;
+    }
+}
