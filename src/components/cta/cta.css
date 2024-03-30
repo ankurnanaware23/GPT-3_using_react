@@ -78,3 +78,9 @@
         line-height: 28px;
     }
 }
+
+@media screen and (max-width: 480px){
+    .gpt3__cta{
+        padding: 20px 40px;
+    }
+}
