@@ -69,7 +69,12 @@
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
+    .gpt3__blog-heading , .gpt3__blog-container{
+        width: 145%;
+        margin: 0 -3rem 3rem -3rem;
+
+    }
     .gpt3__blog-heading h1 {
         font-size: 34px;
         line-height: 42px;
